@@ -1,0 +1,141 @@
+/* Common Styles */
+
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Roboto', sans-serif;
+}
+.container-fluid{
+    background-color: blanchedalmond;
+    padding:10px;
+  
+}
+.container{
+    width:1130px;
+    margin:auto;
+}
+.w-50{
+    width:50%;
+}
+.text-center{
+    text-align: center;
+}
+.btn-primary{
+    background-color: orange;
+    color:#fff;
+    font-size:20px;
+    border-radius: 5px;
+    border:none;
+    padding:15px;
+}
+.roboto-300{
+    font-weight: 300;
+}
+.text-primary{
+    color:orange;
+}
+/* Navigation Menu */
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:30px 0;
+
+}
+
+.logo h1{
+    font-size: 35px;
+    font-weight: 500px;
+} 
+
+.navbar ul{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.navbar ul li{
+    list-style-type: none;
+
+}
+.navbar ul li a{
+    text-decoration: none;
+    display: block;
+    padding:5px 10px;
+    cursor: pointer;
+    color:#000;
+    font-size:1.2em;
+}
+
+/* Banner Styles */
+
+.banner{
+    margin:30px auto;
+}
+.banner-content{
+    padding:60px;
+}
+.banner-content h1{
+    font-weight: 700;
+    font-size: 50px;
+    color:#131313;
+}
+.banner-content p{
+    margin:25px auto;
+    font-size: 1em;
+    font-weight: 500;
+    color:#727272;
+}
+.banner-content button{}
+
+.banner-image{}
+.banner-image img{
+    width:100%;
+}
+
+/* Quick Feature area */
+
+.quick-area{
+    /* background-color: lightcoral; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    margin:30px auto;
+
+}
+.quick-images{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-column-gap: 15px;
+    grid-row-gap:15px;
+    /* background-color: #727272; */
+    object-fit: cover;
+    object-position: left;
+    padding:5px;
+
+    
+}
+.quick-images > div{
+    overflow:hidden;
+    border-radius: 10px;
+    /* border:2px solid #000; */
+}
+.quick-images img{
+    width:100%;
+    overflow: hidden;
+}
+.quick-message{
+    padding:15px 50px;
+}
+.quick-message h2{
+    font-size: 2.5em;
+}
+.quick-message p{
+    margin:25px auto;
+    font-size: 1em;
+    font-weight: 300;
+    color:#727272;
+}
+.quick-message button{}
