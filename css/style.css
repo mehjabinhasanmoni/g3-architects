@@ -148,7 +148,7 @@
 }
 .quick-message p {
   margin: 25px auto;
-  font-size: 1em;
+  font-size: 1.2em;
   font-weight: 300;
   color: #727272;
 }
@@ -179,7 +179,7 @@
 }
 .feature-title p {
   margin: 25px auto;
-  font-size: 1em;
+  font-size: 1.2em;
   font-weight: 400;
   color: #727272;
   line-height: 21px;
@@ -198,7 +198,7 @@
 }
 .feature-list p {
   margin: 10px auto;
-  font-size: 1em;
+  font-size: 1.2em;
   font-weight: 400;
   color: #727272;
   line-height: 24px;
@@ -232,7 +232,7 @@
 }
 .facts-title p {
   margin: 15px auto;
-  font-size: 1em;
+  font-size: 1.2em;
   font-weight: 400;
   line-height: 22px;
   color: #727272;
@@ -290,7 +290,7 @@
 }
 .sponsors-title p {
   margin: 25px auto;
-  font-size: 1em;
+  font-size: 1.2em;
   font-weight: 400;
   color: #727272;
 }
@@ -316,7 +316,8 @@
   text-align: center;
 }
 .team-title {
-  text-align: center;
+    text-align: center;
+    padding: 10px;
 }
 .team-title h1 {
   font-size: 2.5em;
@@ -325,7 +326,7 @@
 }
 .team-title p {
   margin: 25px auto;
-  font-size: 1em;
+  font-size: 1.2em;
   font-weight: 400;
   color: #727272;
 }
@@ -362,7 +363,7 @@
 }
 
 .team-mate p {
-  font-size: 1em;
+  font-size: 1.2em;
   font-weight: 400;
   color: #727272;
 }
@@ -377,7 +378,7 @@ footer {
 }
 
 footer p {
-  font-size: 1em;
+  font-size: 1.2em;
   font-weight: 400;
   padding: 10px;
 }
